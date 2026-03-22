@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idlyzza - Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <section class="hero">
+            <img src="Images\logo.png">
+        </section>
+
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+        <div class="container">
+
+            <div class="logo">
+                <h1>Idlyzza</h1>
+                <p class="tagline">From Idly to Neapolitan pizza</p>
+            </div>
+
+            <div class="header-info">
+
+                <p>
+                    📍 Opp: Rutherford Church, Circuit house
+                    <a href="https://maps.app.goo.gl/JtJLYz8vZMwMxEEfA" target="_blank">
+                        (View Map)
+                    </a>
+                    | 📞 +91-9908300560
+                </p>
+
+                <p>⏰ Open: 11 AM - 11 PM</p>
+
+            </div>
+
+        </div>
+
+        <!-- Today's Specials Section -->
+        <section class="specials">
+            <div class="container">
+                <h2>✨ Today's Specials</h2>
+                <div class="specials-grid">
+                    <div class="special-card">
+                        <img src="Images\Margherita Delight.jif?w=300&h=250&fit=crop" alt="Margherita Pizza">
+                        <h3>Margherita Delight</h3>
+                        <p class="description">Fresh mozzarella, tomatoes, and basil on thin crust</p>
+                        <div class="price-badge">
+                            <span class="original-price"> ₹ 499</span>
+                            <span class="special-price">  ₹ 359</span>
+                        </div>
+                        <span class="discount-tag">-25% OFF</span>
+                    </div>
+
+                    <div class="special-card">
+                        <img src="Images\Spicy Pepperoni.jpg?w=300&h=250&fit=crop" alt="Pepperoni Pizza">
+                        <h3>Spicy Pepperoni</h3>
+                        <p class="description">Loaded with premium pepperoni and extra cheese</p>
+                        <div class="price-badge">
+                            <span class="original-price">₹ 499</span>
+                            <span class="special-price">₹ 399</span>
+                        </div>
+                        <span class="discount-tag">-20% OFF</span>
+                    </div>
+
+                    <div class="special-card">
+                        <img src="Images\beetroot-idly.webp" alt="Fettuccine Alfredo">
+                        <h3>Beetroot Idly</h3>
+                        <p class="description">Beetroot Infused soft fluffy idlies</p>
+                        <div class="price-badge">
+                            <span class="price">₹45</span>
+                            <!--<span class="special-price">$9.99</span>-->
+                        </div>
+                        <!--<span class="discount-tag">-23% OFF</span>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="menu">
+            <div class="container">
+
+                <h2>Menu</h2>
+
+                <!-- IDLY -->
+                <div class="menu-category">
+
+                    <h3 class="category-title">Idly</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item">
+                            <img src="Images/plain-idly.jpg">
+                            <div class="item-details">
+                                <h4>Plain Idly</h4>
+                                <p>Soft fluffy steamed idlies</p>
+                                <span class="price">₹40 (3pc)</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images/beetroot-idly.webp">
+                            <div class="item-details">
+                                <h4>Beetroot Idly</h4>
+                                <p>Beetroot infused idly</p>
+                                <span class="price">₹50 (3pc)</span>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images/ragi-idly.jpg">
+                            <div class="item-details">
+                                <h4>Jonna / Ragi Idly</h4>
+                                <p>Healthy millet idly</p>
+                                <span class="price">₹50 (3pc)</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- POORI -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Poori</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item">
+                            <img src="Images\plain-poori.jpg">
+                            <div class="item-details">
+
+                                <h4>Plain Poori</h4>
+
+                                <p>Soft fried poori</p>
+
+                                <span class="price">₹40 (2pc)</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\palak-poori.jpg" />
+                            <div class="item-details">
+
+                                <h4>Palak Poori</h4>
+
+                                <p>Spinach infused poori</p>
+
+                                <span class="price">₹60 (2pc)</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\beetroot-poori.jpg" />
+                            <div class="item-details">
+
+                                <h4>Beetroot Poori</h4>
+
+                                <p>Healthy beetroot poori</p>
+
+                                <span class="price">₹60 (2pc)</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- DOSA -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Dosa</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item">
+                            <img src="Images\plain-dosa.jpg">
+                            <div class="item-details">
+
+                                <h4>Plain Dosa</h4>
+
+                                <span class="price">₹40</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\onion-dosa.jpg">
+                            <div class="item-details">
+
+                                <h4>Onion Dosa</h4>
+
+                                <span class="price">₹50</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\masala-dosa.jpg">
+                            <div class="item-details">
+
+                                <h4>Masala Dosa</h4>
+
+                                <span class="price">₹60</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\ghee-karam-dosa.jpg">
+                            <div class="item-details">
+
+                                <h4>Ghee Karam Dosa</h4>
+
+                                <span class="price">₹70</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\Egg-Dosa.jpg">
+                            <div class="item-details">
+
+                                <h4>Egg Dosa</h4>
+
+                                <span class="price">₹80</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CURRIES -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Curries</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item">
+                            <img src="Images\Kodi Kura.jpg">
+                            <div class="item-details">
+
+                                <h4>Kodi Kura</h4>
+
+                                <span class="price">₹99 Bowl</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\Mutton-Paya.jpg">
+                            <div class="item-details">
+
+                                <h4>Paya</h4>
+
+                                <span class="price">₹129 Bowl</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+                            <img src="Images\Mutton-Kheema1-.jpg">
+                            <div class="item-details">
+
+                                <h4>Mutton Kheema</h4>
+
+                                <span class="price">₹149 Bowl</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- COMBOS -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Combos</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item">
+
+                            <div class="item-details no-image">
+
+                                <h4>Dosa + Poori + Kodi Kura</h4>
+
+                                <span class="price">₹169</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+
+                            <div class="item-details no-image">
+
+                                <h4>Dosa + Poori + Kheema</h4>
+
+                                <span class="price">₹220</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- PIZZA -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Pizza</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item">
+
+                            <div class="item-details no-image">
+
+                                <h4>Rudhramadevi Fire Margherita</h4>
+
+                                <p>Tomato base, mozzarella, basil</p>
+
+                                <span class="price">₹299</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+
+                            <div class="item-details no-image">
+
+                                <h4>Kakatiya Crown Paneer</h4>
+
+                                <p>Tandoor paneer, mozzarella</p>
+
+                                <span class="price">₹359</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+
+                            <div class="item-details no-image">
+
+                                <h4>Orugallu Spice Chicken</h4>
+
+                                <p>Spicy chicken pizza</p>
+
+                                <span class="price">₹389</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="menu-item">
+
+                            <div class="item-details no-image">
+
+                                <h4>1000 Pillar Keema Bianca</h4>
+
+                                <p>Lamb keema pizza</p>
+
+                                <span class="price">₹449</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- QUICK BITES -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Quick Bites</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Salted Fries</h4><span class="price">₹129</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Peri Peri Fries</h4><span class="price">₹149</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Cheese Garlic Bread</h4><span class="price">₹179</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Loaded Chicken Fries</h4><span class="price">₹199</span></div></div>
+
+                    </div>
+
+                </div>
+
+                <!-- SHAKES -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Thick Shakes</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Vanilla</h4><span class="price">₹210</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Oreo</h4><span class="price">₹239</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Butterscotch</h4><span class="price">₹239</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Nutella</h4><span class="price">₹259</span></div></div>
+
+                    </div>
+
+                </div>
+
+                <!-- MOCKTAILS -->
+
+                <div class="menu-category">
+
+                    <h3 class="category-title">Mocktails</h3>
+
+                    <div class="menu-grid">
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Virgin Mojito</h4><span class="price">₹149</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Blue Curacao</h4><span class="price">₹149</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Watermelon Mojito</h4><span class="price">₹149</span></div></div>
+
+                        <div class="menu-item"><div class="item-details no-image"><h4>Green Apple Mojito</h4><span class="price">₹149</span></div></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <!--<section class="menu">
+        <div class="container">
+            <h2>Menu</h2>-->
+        <!-- Pizzas -->
+        <!--<div class="menu-category">
+        <h3 class="category-title">🍕 Pizzas</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1628840042765-356cda07f4ee?w=250&h=200&fit=crop" alt="Classic Pasta">
+                <div class="item-details">
+                    <h4>Margherita</h4>
+                    <p>Fresh mozzarella, tomatoes, basil</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1549007994-cb92cebf800d?w=250&h=200&fit=crop" alt="Pepperoni">
+                <div class="item-details">
+                    <h4>Pepperoni</h4>
+                    <p>Classic pepperoni with mozzarella</p>
+                    <span class="price">$13.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561d1f?w=250&h=200&fit=crop" alt="Vegetarian">
+                <div class="item-details">
+                    <h4>Vegetarian Deluxe</h4>
+                    <p>Bell peppers, mushrooms, onions, olives</p>
+                    <span class="price">$11.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=250&h=200&fit=crop" alt="Quattro Formaggi">
+                <div class="item-details">
+                    <h4>Quattro Formaggi</h4>
+                    <p>Four different cheeses blend</p>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1513689553144-92dc5b86637d?w=250&h=200&fit=crop" alt="Seafood">
+                <div class="item-details">
+                    <h4>Seafood Supreme</h4>
+                    <p>Shrimp, calamari, clams, mussels</p>
+                    <span class="price">$16.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=250&h=200&fit=crop" alt="Meat Lovers">
+                <div class="item-details">
+                    <h4>Meat Lovers</h4>
+                    <p>Sausage, bacon, pepperoni, ground beef</p>
+                    <span class="price">$15.99</span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+        <!-- Pasta -->
+        <!--<div class="menu-category">
+        <h3 class="category-title">🍝 Pasta</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1621996346565-55a9cc003b25?w=250&h=200&fit=crop" alt="Fettuccine Alfredo">
+                <div class="item-details">
+                    <h4>Fettuccine Alfredo</h4>
+                    <p>Creamy parmesan sauce</p>
+                    <span class="price">$11.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=250&h=200&fit=crop" alt="Spaghetti">
+                <div class="item-details">
+                    <h4>Spaghetti Carbonara</h4>
+                    <p>Bacon, eggs, parmesan</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1463521721290-e8c4d0f3fbc6?w=250&h=200&fit=crop" alt="Lasagna">
+                <div class="item-details">
+                    <h4>Lasagna Bolognese</h4>
+                    <p>Layered pasta with meat sauce</p>
+                    <span class="price">$13.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1621996346565-55a9cc003b25?w=250&h=200&fit=crop" alt="Penne">
+                <div class="item-details">
+                    <h4>Penne Arrabbiata</h4>
+                    <p>Spicy tomato sauce with garlic</p>
+                    <span class="price">$11.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1619082927371-621988f60e82?w=250&h=200&fit=crop" alt="Ravioli">
+                <div class="item-details">
+                    <h4>Ravioli Ricotta</h4>
+                    <p>Cheese-filled pasta with tomato sauce</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1621996346565-55a9cc003b25?w=250&h=200&fit=crop" alt="Seafood">
+                <div class="item-details">
+                    <h4>Linguine ai Frutti di Mare</h4>
+                    <p>Fresh seafood with white wine sauce</p>
+                    <span class="price">$14.99</span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+        <!-- Appetizers -->
+        <!--<div class="menu-category">
+        <h3 class="category-title">🍤 Appetizers</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1599599810694-cd9e3c762cc4?w=250&h=200&fit=crop" alt="Garlic Bread">
+                <div class="item-details">
+                    <h4>Garlic Bread</h4>
+                    <p>Crispy bread with garlic butter</p>
+                    <span class="price">$4.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1599599810828-92b7b4d79dd1?w=250&h=200&fit=crop" alt="Bruschetta">
+                <div class="item-details">
+                    <h4>Bruschetta</h4>
+                    <p>Toasted bread with tomato topping</p>
+                    <span class="price">$5.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1599599810631-e60e74a77b6d?w=250&h=200&fit=crop" alt="Mozzarella">
+                <div class="item-details">
+                    <h4>Mozzarella Sticks</h4>
+                    <p>Golden fried mozzarella with marinara</p>
+                    <span class="price">$6.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1599599810831-3a1b7e51e3e0?w=250&h=200&fit=crop" alt="Calamari">
+                <div class="item-details">
+                    <h4>Fried Calamari</h4>
+                    <p>Tender calamari with lemon sauce</p>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+        <!-- Beverages -->
+        <!--<div class="menu-category">
+        <h3 class="category-title">🥤 Beverages</h3>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-details no-image">
+                    <h4>Soft Drinks</h4>
+                    <p>Coke, Sprite, 7-Up, etc.</p>
+                    <span class="price">$2.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-details no-image">
+                    <h4>Italian Wine</h4>
+                    <p>White, Red, or Rosé</p>
+                    <span class="price">$5.99 - $25.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-details no-image">
+                    <h4>Beer Selection</h4>
+                    <p>Imported & Local Craft</p>
+                    <span class="price">$3.99 - $5.99</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="item-details no-image">
+                    <h4>Italian Sodas</h4>
+                    <p>Fresh fruit sodas</p>
+                    <span class="price">$3.99</span>
+                </div>
+            </div>
+        </div>
+    </div>-->
+        <!-- Desserts -->
+        <!--<div class="menu-category">
+                <h3 class="category-title">🍰 Desserts</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=250&h=200&fit=crop" alt="Tiramisu">
+                        <div class="item-details">
+                            <h4>Tiramisu</h4>
+                            <p>Classic Italian layered dessert</p>
+                            <span class="price">$5.99</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1571115764595-644a12c37289?w=250&h=200&fit=crop" alt="Panna Cotta">
+                        <div class="item-details">
+                            <h4>Panna Cotta</h4>
+                            <p>Creamy vanilla custard</p>
+                            <span class="price">$4.99</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1577558996479-633433cddeca?w=250&h=200&fit=crop" alt="Gelato">
+                        <div class="item-details">
+                            <h4>Italian Gelato</h4>
+                            <p>Multiple flavors available</p>
+                            <span class="price">$3.99</span>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1609925591160-fae6f246b08b?w=250&h=200&fit=crop" alt="Cannoli">
+                        <div class="item-details">
+                            <h4>Cannoli</h4>
+                            <p>Crispy tubes with sweet ricotta filling</p>
+                            <span class="price">$4.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+        <!-- Footer -->
+        <!--<footer class="footer">
+                <div class="container">
+                    <p>&copy; 2026 idlyzza Restaurant. All rights reserved.</p>
+                    <p>Crafted with ❤️ for food lovers</p>
+                </div>
+            </footer>
+    </body>
+    </html>-->
